@@ -1,0 +1,33 @@
+{
+    "name": "library-name",
+    "description": "Library description.",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Douglas Linsmeyer",
+            "email": "douglinsmeyer@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "doctrine/collections": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DLinsmeyer\\ProjectName\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DLinsmeyer\\ProjectName\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
