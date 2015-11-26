@@ -1,5 +1,5 @@
 {
-    "name": "library-name",
+    "name": "dlinsmey/php-library-boilerplate",
     "description": "Library description.",
     "version": "1.0.0",
     "type": "library",
